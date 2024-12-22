@@ -1,0 +1,43 @@
+body {
+    font-family: andale mono, monospace;
+}
+a {
+    font-family: andale mono, monospace;
+}
+
+.alert-container {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    z-index: 2;
+}
+.alert-error {
+    background-color: #dc3545;
+    box-shadow: 0 4px 35px 0 rgb(23 55 87 / 10%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+.alert-success {
+    background-color: #20c997;
+    box-shadow: 0 4px 35px 0 rgb(23 55 87 / 10%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+.store-alert {
+    border-radius: 7px;
+    padding: 0.8em 1em;
+}
+.store-heading {
+    height: 600px;
+}
+.card {
+    box-shadow: 0 4px 35px 0 rgb(23 55 87 / 10%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+.card-category {
+    font-size: 0.9rem;
+}
+.card-title {
+    font-size: 0.95rem !important;
+}
+.product-btn {
+    transition: all 300ms ease;
+}
+.product-btn:hover {
+    transform: translateY(-2px);
+}

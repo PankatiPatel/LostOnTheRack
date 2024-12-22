@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 4rem;
+}
+nav {
+    padding: 0 0.2rem;
+    transition: all 300ms ease;
+}
+.img-container {
+    max-width: 70px;
+}
+.landing-body {
+    padding-top: 3rem;
+}
+.navbar-nav li {
+    font-size: 1.1rem;
+}
+.card {
+    position: relative;
+}
+.cart-btn {
+    background: none;
+}
+.cart-count {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    right: -10px;
+}
+.cart-count span {
+    font-size: 0.8rem;
+}
+.nav-scrolled {
+    padding: 0.4rem 3rem 0 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px -5px rgba(24, 24, 24, 1);
+}
+@media screen and (max-width: 768px) {
+    .nav-scrolled {
+        padding: 0;
+    }
+}

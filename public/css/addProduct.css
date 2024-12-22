@@ -1,0 +1,62 @@
+.input{
+    margin-bottom: 1vw !important;
+    background-color:#f5f3f3;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    transition: all 300ms ease;
+}
+
+.input:hover,
+.input:focus,
+.input:active{
+    background-color: #fff;
+    border-color: rgb(75, 198, 185);
+    box-shadow: 0 0 0 0.3rem rgba(75, 198, 185, 0.3) !important;
+}
+#productCategory{
+    margin-right: 3vw;
+    margin-bottom: 1vw;
+    width: 10vw;
+
+}
+
+#size{
+
+    width: 10vw !important;
+    margin-right: 3vw;
+  
+}
+#productQuantity {
+    margin-right: 3vw !important;
+    margin-bottom: 1vw;
+
+}
+
+.button{
+
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#productImages{
+   margin-left: 20vw;
+}
+.form-group{
+
+    justify-content: center;
+}
+#form{
+
+
+    text-align: center;
+
+}
